@@ -1,0 +1,677 @@
+@media (max-width:1300px) {
+    .navRight .navItems {
+        width: 65%;
+    }
+}
+
+
+
+@media (max-width:992px) {
+    .navRight .navItems {
+        width: 65%;
+    }
+
+    .Product-nav ul {
+        width: 72%;
+    }
+    
+
+    .Hero-Area .banner h1 {
+        font-size: 55px;
+    }
+
+    .Hero-Area .banner span button {
+        width: 20%;
+
+    }
+
+    .Highlight-tshirt .d-flex {
+        display: block;
+    }
+
+    .Highlight-tshirt .card {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .lates-News-Section .Post-card {
+        width: 45%;
+    }
+
+    .Shop-our-gear .heading {
+        width: 55%;
+    }
+
+    .Shop-our-gear .item {
+        width: 47%;
+        display: inline-block;
+        margin: 80px 5px;
+    }
+
+    footer .FooterNav .socialIcons {
+        width: 15%;
+    }
+
+    .Shop-our-gear .Product-Slide .product {
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        top: -50%;
+        left: 0%;
+        text-align: center;
+
+    }
+
+    .Shop-our-gear .Product-Slide .product:hover {
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        top: -50%;
+        left: 15%;
+        text-align: center;
+
+    }
+
+    footer .logo img {
+        width: 10%;
+
+    }
+
+    footer .InstaFollowing .FollowButton {
+        width: 25%;
+        justify-content: right;
+        text-align: right;
+    }
+
+    .navRight .navItems {
+        width: 70%;
+    }
+
+    footer .FooterNav nav {
+        width: 75%;
+    }
+
+    footer .FooterNav nav ul {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+
+    }
+
+
+    /* Product view page */
+    .Product-details {
+        display: block;
+    }
+
+    .Product-details .images-view {
+        width: 100%;
+    }
+
+    .Product-details .Produdct-Describtion {
+        width: 100%;
+    }
+}
+
+@media (min-width:768px) {
+    .navRight .Mobile-navItems {
+        display: none;
+    }
+}
+
+
+
+
+
+
+/* Tab Responsive */
+
+@media (max-width:768px) {
+    .navRight .navItems {
+        display: none;
+    }
+
+    .navRight .navIcons {
+        display: block;
+        position: relative;
+        right: 20px;
+        top: 20px;
+    }
+    .Hero-Area .banner{
+        height: 40vh;
+    }
+   
+
+    .Hero-Area .banner h1 {
+        font-size: 52px;
+    }
+
+    h2 {
+        font-size: 40px !important;
+    }
+
+    .navRight .navIcons span {
+        display: flex;
+    }
+
+    .navRight .navIcons span li {
+        margin: 0px 10px;
+    }
+
+    #times {
+        cursor: pointer;
+    }
+
+    .navRight .Mobile-navItems .navItems {
+        display: block;
+    }
+
+    .navRight .Mobile-navItems {
+        width: 100%;
+        height: 110vh;
+        background-color: var(--Black);
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 55555;
+        position: fixed;
+        overflow-y: scroll;
+        display: none;
+    }
+
+
+
+    /* /////////     Mobile Responsive Nav  ///////////// */
+
+    .Mobile-navItems .logo img {
+        width: 70px;
+    }
+
+    .Mobile-navItems>ul {
+        width: 90%;
+        height: 450px;
+        display: block;
+        position: relative;
+        top: 12%;
+        margin: 0 auto;
+        height: fit-content;
+        text-align: center;
+        overflow-y: scroll;
+    }
+
+    .Mobile-navItems>ul li {
+        line-height: 30px;
+        border-bottom: .5px solid var(--TextAss);
+    }
+
+    .Mobile-navItems>ul li img {
+        width: 15px;
+    }
+
+    .Mobile-navItems ul li a {
+        font-size: 20px;
+        line-height: 55px;
+        position: relative;
+        color: var(--TextAss);
+
+    }
+
+    .Mobile-navItems>ul li {
+        position: relative;
+        justify-content: center;
+    }
+
+    .Mobile-navItems ul li:hover ul {
+        width: 100%;
+        height: fit-content;
+        display: block;
+        text-align: center;
+        background-color: var(--Black);
+        overflow-y: scroll;
+        padding: 25px 0;
+    }
+
+    .Mobile-navItems>ul ul li {
+        border-bottom: none;
+    }
+
+    .Mobile-navItems>ul ul li a {
+        line-height: 40px;
+        font-size: 17px;
+        padding: 10px 0;
+        border-bottom: .5px solid var(--White);
+        color: var(--White);
+    }
+
+    .Mobile-navItems>ul ul {
+        display: none;
+    }
+
+    #times {
+        width: 50px;
+    }
+
+
+    .Mobile-navItems ul li {
+        position: relative !important;
+    }
+
+    .Mobile-navItems .iconsImage {
+        width: 15%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 0;
+        margin: 50px auto;
+        text-align: center;
+    }
+
+
+
+    .Mobile-navItems .iconsImage img {
+        width: 40px;
+        padding: 10px;
+    }
+
+    /* mobile menu Responsive design end.... */
+
+
+
+
+
+    .navRight .Mobile-navItems .logo {
+        position: absolute;
+        top: 15px;
+        left: 30px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .navRight .Mobile-navItems span {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        width: 30px;
+        height: 30px;
+        display: flex;
+    }
+
+    .navRight .Mobile-navItems span img {
+        width: 50%;
+    }
+
+
+    .Hero-Area .banner span button {
+        width: 30%;
+
+    }
+
+    .lates-News-Section .Post-card {
+        width: 100%;
+        margin: 10px auto;
+        background-position: top center;
+    }
+
+    .Shop-our-gear .heading {
+        width: 60%;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: var(--TextAss);
+    }
+
+    .Shop-our-gear .item {
+        width: 100%;
+        margin: 80px auto;
+        height: 350px;
+    }
+
+    .Product-Slide .Product-card span {
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+        top: 50%;
+        font-size: 20px;
+    }
+
+    .Shop-our-gear .Product-Slide .product {
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        top: -50%;
+        left: 0% !important;
+        text-align: center;
+
+    }
+
+    /* .Shop-our-gear .Product-Slide .product:hover {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+       
+
+    } */
+
+    .Product-Slide .Product-card span {
+        top: 65%;
+        line-height: 40px;
+    }
+
+    .Shop-our-gear .Product-Slide .product img {
+        width: 60%;
+        left: 25%;
+    }
+
+
+    .meet-ourTeam-setion .Team {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    footer .InstaFollowing .Insta {
+        width: 25%;
+    }
+
+    footer .InstaFollowing .FollowButton {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        text-align: right;
+    }
+
+    footer .FooterNav .socialIcons {
+        width: 25%;
+    }
+
+    footer .FooterNav nav {
+        width: 100%;
+        margin: 25px 0;
+        border-top: .5px solid var(--TextAss);
+        padding: 15px 0;
+    }
+
+    footer .FooterNav nav ul {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+
+    }
+
+    footer .FooterNav nav li a {
+        font-size: 13px;
+
+
+    }
+
+
+}
+
+
+/* mobile Responsive */
+
+@media (max-width:576px) {
+    .logo img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .navIcons img {
+        width: 18px;
+    }
+
+    .Branding-logos span img {
+        width: 100px;
+    }
+ 
+
+    .Hero-Area .banner span button {
+        width: 42%;
+    }
+
+    .Hero-Area .banner h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 36px !important;
+    }
+
+    .lates-News-Section .Post-card .text {
+        top: 70%;
+    }
+
+    .lates-News-Section a button {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .Shop-our-gear {
+        margin-top: 0;
+    }
+
+    .Shop-our-gear .heading {
+        width: 80%;
+    }
+
+    .Shop-our-gear .Product-Slide {
+        height: 100%;
+    }
+
+    .Shop-our-gear .Product-Slide .product {
+        width: 100%;
+        height: 80%;
+        position: static;
+        top: 0%;
+        left: 15%;
+        text-align: center;
+    }
+
+    .Shop-our-gear .Product-Slide:hover .product {
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        top: -30%;
+        left: 15%;
+        text-align: center;
+
+    }
+
+    .Shop-our-gear .Product-Slide {
+        padding: 20px 0;
+    }
+
+    .Shop-our-gear .item {
+        margin: 50px 0;
+    }
+
+    /* .Shop-our-gear .Product-Slide .Product-card {
+        height: 100%;
+        top: 0%;
+    } */
+
+    .Shop-our-gear .Product-Slide .Product-card span h3 {
+        font-size: 24px;
+    }
+
+    .Shop-our-gear .Product-Slide .product {
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        text-align: center;
+
+    }
+
+    .Shop-our-gear .Product-Slide .product:hover {
+        width: 100%;
+        height: 50%;
+        position: static !important;
+        top: 10% !important;
+        left: 25%;
+        text-align: center;
+
+    }
+
+    .Follow-the-action .actionVideo iframe {
+        width: 100%;
+        height: 350px;
+    }
+
+    .InstaFollowing .text {
+        width: 70%;
+        margin-top: 0;
+        margin-left: 15px;
+    }
+
+    .actionVideo footer .InstaFollowing .FollowButton {
+        width: 50%;
+        justify-content: right;
+        text-align: right;
+    }
+
+    footer .InstaFollowing .FollowButton button {
+        width: 100%;
+        padding: 8px;
+        font-size: 10px;
+        font-weight: 500;
+
+    }
+
+    footer .InstaFollowing .Insta img {
+        width: 50px;
+        height: 100%;
+        margin-top: -10px;
+
+    }
+
+    footer .InstaPhotos {
+        display: none;
+    }
+
+    .InstaFollowing .text {
+        width: 60%;
+        font-size: 14px;
+    }
+
+    .InstaFollowing .text h3 {
+        font-size: 14px;
+    }
+
+    footer .FooterNav nav li a {
+        font-size: 13px;
+        margin: 0px 5px;
+    }
+
+    footer .FooterNav .socialIcons {
+        width: 30%;
+    }
+
+    footer .footerlogo .logo {
+        margin: 5px 0;
+    }
+
+    footer .footerlogo .logo img {
+        width: 20%;
+        height: 100%;
+        margin: 10px 0;
+
+    }
+
+    footer .copyWrite p {
+        font-size: 11px;
+        color: var(--TextAss);
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2,
+    h3 {
+        font-size: 22px;
+    }
+
+
+
+    /* Product view page */
+    .sizeSelect button {
+        width: 19%;
+        display: inline-block;
+    }
+
+    .Product-details .images-view .full-view {
+        width: 350px;
+        height: 350px;
+        display: flex;
+        margin: 0 auto;
+        padding: 0;
+
+    }
+
+    .Product-details .images-view .full-view img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        padding: 25px;
+
+    }
+
+    .Product-details .ProductSingle-item-view span img {
+        width: 120px;
+        cursor: pointer;
+
+    }
+
+    .Produdct-Describtion .title h2 {
+        font-size: 30px !important;
+
+    }
+
+    .Produdct-Describtion .price h3 {
+        font-size: 25px;
+    }
+
+    .Produdct-Describtion .price h3 span {
+        font-size: 20px;
+    }
+
+    .Produdct-Describtion .price {
+        line-height: 25px;
+    }
+
+    .Produdct-Describtion .delivery-price {
+        display: block;
+    }
+
+    .Produdct-Describtion .delivery-price .card {
+        width: 100%;
+        margin: 10px 0;
+        padding: 15px 0;
+    }
+
+    .singup-for-newsLatter span input {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .singup-for-newsLatter button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .you-may-like .Product-item {
+        margin: 15px 0;
+    }
+
+
+    .you-may-like .Product-item::after {
+        display: none;
+    }
+}
