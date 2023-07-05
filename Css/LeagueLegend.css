@@ -1,0 +1,612 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+
+
+.Team-LegendHero .Banner-background {
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .95)), url('../Images/LeagueOfLegend/HeroBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 100vh;
+    filter: grayscale(70%);
+    -webkit-filter: grayscale(70%);
+    position: relative;
+
+}
+
+.League-Legend-logo {
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.Team-LegendHero img {
+    width: fit-content;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: contrast(100%);
+    -webkit-filter: contrast(100%);
+    position: absolute;
+    top: 35%;
+    left: 17%;
+    object-fit: cover;
+    transform: scale(.6);
+    -webkit-transform: scale(.5);
+    -moz-transform: scale(.6);
+    -ms-transform: scale(.6);
+    -o-transform: scale(.6);
+}
+
+
+
+
+
+
+
+
+
+.legend-team-area {
+    margin-top: -100px;
+}
+
+.legend-team-area .team-flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.legend-team-area .team-flex-box .single-Player {
+    width: 32%;
+    height: 100%;
+    display: inline-block;
+    margin: 30px 0;
+    position: relative;
+}
+
+.legend-team-area .team-flex-box .card {
+    height: 100%;
+    height: 100%;
+    margin-top: 35px;
+    text-transform: uppercase;
+    background-color: #111;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+}
+
+.legend-team-area .team-flex-box .card span {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+.legend-team-area .card img {
+    width: 80%;
+    margin-top: -15%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: ease-in-out .5s;
+    -webkit-transition: ease-in-out .5s;
+    -moz-transition: ease-in-out .5s;
+    -ms-transition: ease-in-out .5s;
+    -o-transition: ease-in-out .5s;
+}
+
+.legend-team-area .card img:hover {
+    transform: scale(1.09);
+    -webkit-transform: scale(1.09);
+    -moz-transform: scale(1.09);
+    -ms-transform: scale(1.09);
+    -o-transform: scale(1.09);
+}
+
+.legend-team-area .card .card-body {
+    padding: 25px 0;
+    line-height: 40px;
+    margin: 25px 0;
+}
+
+.legend-team-area .card .card-body h3 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.legend-team-area .card .card-body p {
+    color: #b3b3b3;
+    font-size: 14px;
+}
+
+
+.League-Legend-News {
+    margin: 25px 0;
+}
+
+.League-Legend-News h3 {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.League-Legend-News .single-news {
+    width: 30%;
+    height: 400px;
+    background: linear-gradient(to top, rgba(0, 0, 0, .6)10%, rgba(0, 0, 0, .2)40%), url('../Images/LeagueOfLegend/News.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+}
+
+.League-Legend-News .single-news .news-title {
+    width: 90%;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+.League-Legend-News .news-title h4 {
+    font-size: 28px;
+    font-weight: 500;
+
+}
+
+.League-Legend-News .news-title p {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 15px;
+    color: #888;
+}
+
+.League-Legend-News .news-hover {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    display: none;
+}
+
+
+.League-Legend-News .single-news:hover .news-hover {
+    display: block;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* about Page styles.... */
+
+.about-page-banner {
+    background: linear-gradient(to top, rgba(0, 0, 0, .8), rgba(0, 0, 0, .93)), url('../Images/Our\ Management/bannerBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.about-page-banner .title-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-page-banner .title-text h1 {
+    width: 50%;
+    font-size: 70px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.about-page-banner .title-text p {
+    width: 15%;
+    background-color: #111;
+    padding: 15px;
+    text-align: center;
+    margin: 15px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+
+.about-detail-text {
+    color: rgb(232, 232, 232);
+    font-family: 'Roboto, sans-serif';
+}
+
+.about-detail-text .texts {
+    text-align: center;
+    letter-spacing: .5px;
+    background-color: #111;
+    padding: 15px;
+    margin: 15px 0;
+    margin-top: -50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.about-detail-text .texts p {
+    margin: 25px 0;
+}
+
+.about-detail-text .bottom-text {
+    color: rgb(180, 180, 180);
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.about-detail-text .bottom-content {
+    padding: 0;
+    margin: 0;
+}
+
+.about-detail-text .bottom-content .flex-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+
+}
+
+.about-detail-text .bottom-content .left {
+    width: 48%;
+    background-color: #111;
+    padding: 15px;
+    display: flex;
+    margin: 15px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.about-detail-text .bottom-content .right {
+    width: 48%;
+    background-color: #111;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    margin: 15px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.about-detail-text .bottom-content span {
+    width: 25%;
+    font-size: 15px;
+    color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.about-detail-text .bottom-content svg {
+    display: flex;
+    height: 100%;
+    width: 80px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.about-detail-text .bottom-content h3 {
+    font-weight: 500;
+}
+
+.about-detail-text .bottom-content p {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #888;
+    font-weight: 400;
+}
+
+.about-detail-text .bottom-content div {
+
+    height: 100%;
+    margin: auto 0;
+
+}
+
+.our-management-section {
+    margin-top: 100px;
+}
+
+.our-management-section h3 {
+    font-size: 46px;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    margin: 20px 0;
+    margin-top: 40px;
+}
+
+.our-management-section .management-flex-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-management-section .single-profile-card {
+    width: 18.5%;
+    height: 250px;
+}
+
+.our-management-section .single-profile-card .card {
+    height: 100%;
+    color: white;
+    background-color: #111;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+}
+
+.our-management-section .single-profile-card span img {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.our-management-section .single-profile-card .title h5 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.our-management-section .single-profile-card .title p {
+    font-size: 14px;
+    margin: 15px 0;
+    color: #888;
+}
+
+.our-management-section .single-profile-card .title {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media Query */
+@media (max-width:992px) {
+    .Team-LegendHero img {
+        top: 35%;
+        left: 18%;
+    }
+
+    .legend-team-area .team-flex-box .single-Player {
+        width: 48%;
+    }
+
+    .our-management-section .management-flex-box {
+        display: block;
+    }
+
+    .our-management-section .single-profile-card {
+        width: 31%;
+        display: inline-block;
+        margin: 15px 5px;
+    }
+}
+
+@media (max-width:768px) {
+    .League-Legend-logo {
+        width: 80%;
+    }
+
+    .legend-team-area .team-flex-box .single-Player {
+        width: 95%;
+    }
+
+    .Banner-background {
+        position: relative;
+    }
+
+    .League-Legend-logo {
+        width: 100%;
+        position: absolute;
+        top: 30%;
+        left: -25%;
+    }
+
+    .Team-LegendHero img {
+        position: static;
+        top: 35%;
+        left: -10%;
+        transform: scale(.3);
+        -webkit-transform: scale(.3);
+        -moz-transform: scale(.3);
+        -ms-transform: scale(.3);
+        -o-transform: scale(.3);
+    }
+
+
+    .League-Legend-News .single-news {
+        width: 50%;
+    }
+
+
+
+
+
+
+    .about-page-banner {
+        height: 80vh;
+    }
+
+    .about-page-banner .title-text h1 {
+        width: 80%;
+        font-size: 35px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .about-page-banner .title-text p {
+        width: 35%;
+    }
+
+    .about-detail-text .texts {
+        margin-top: 15px;
+    }
+
+    .about-detail-text .bottom-content .flex-box {
+        display: block;
+    }
+
+    .about-detail-text .bottom-content .left {
+        width: 100%;
+    }
+
+    .about-detail-text .bottom-content .right {
+        width: 100%;
+    }
+
+    .about-detail-text .bottom-content svg {
+        width: 50px;
+        padding: 5px;
+    }
+
+
+    /* management section */
+    .our-management-section h3 {
+        font-size: 35px;
+    }
+
+    .our-management-section .single-profile-card {
+        width: 46%;
+        height: 300px;
+        margin: 15px 10px;
+    }
+}
+
+
+
+
+@media (max-width:576px) {
+    .our-management-section .single-profile-card {
+        width: 95%;
+        height: 250px;
+        margin: 15px auto;
+    }
+
+    .our-management-section .single-profile-card span img {
+        width: 25%;
+        margin: 0 auto;
+    }
+
+    .our-management-section .single-profile-card .title {
+        height: 70%;
+    }
+
+    .our-management-section .single-profile-card .title h5 {
+        font-size: 22px;
+
+    }
+
+    .our-management-section .single-profile-card .title p {
+        font-size: 16px;
+    }
+}
