@@ -146,7 +146,7 @@ img {
 
 /* Common Css styles End here... */
 header {
-    background-color: var(--Black);
+    background-color: #111;
 }
 
 header .logo {
@@ -313,7 +313,7 @@ header .logo {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height:70vh;
+    height: 70vh;
     position: relative;
 }
 
@@ -383,7 +383,8 @@ header .logo {
 }
 
 .Hero-Area .banner4 {
-    background-image: url('../Images/cover.jpg');}
+    background-image: url('../Images/cover.jpg');
+}
 
 
 
@@ -1141,7 +1142,7 @@ header .logo {
 /* Footer Area section */
 
 footer {
-    background-color: var(--Black);
+    background-color: #111;
     color: var(--White);
     text-align: center;
 }
